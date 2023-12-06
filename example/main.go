@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/pschlump/negroni-prometheus"
 	"github.com/urfave/negroni"
-	"github.com/zbindenren/negroni-prometheus"
 )
 
 func main() {
